@@ -1,36 +1,36 @@
 
 function pontuacao (quantVitorias, quantDerrotas) {
-
     return quantVitorias - quantDerrotas;
 }
 
-let vitorias = 101
-let resultado = pontuacao (vitorias, 1);
+let vitorias = 100
+let saldoVitorias = pontuacao (vitorias, 1);
 
 if (vitorias <=10) {
-    console.log ("ferro")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de **Ferro*")
 }
 
 else if (vitorias <=20) {
-    console.log ("bronze")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de **Bronze*")
 }
 
 else if (vitorias <=50) {
-    console.log ("prata")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de **Prata*")
 }
 
 else if (vitorias <=80) {
-    console.log ("ouro")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de **Ouro*")
 }
 
 else if (vitorias <=90) {
-    console.log ("diamante")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de **Diamante*")
 }
 
 else if (vitorias <=100) {
-    console.log ("lendário")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de *Lendário*")
 }
 
 else {
-    console.log ("imortal")
+    console.log ("O Herói tem de saldo de **" + saldoVitorias + "** está no nível de **Imortal*")
 }
+
